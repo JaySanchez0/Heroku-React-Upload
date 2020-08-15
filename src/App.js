@@ -18,7 +18,7 @@ function App() {
             render={()=><Index/>} exact/>
 
         <Route path="/login" 
-            render={()=> "Login"} exact/>
+            render={()=> "Login A"} exact/>
 
         <Route path="*" 
             render={()=> <Error/>} exact/>

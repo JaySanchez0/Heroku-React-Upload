@@ -1,0 +1,16 @@
+.main-bar{
+    display: flex;
+    flex-direction: row;
+    background: SlateBlue;
+    z-index: 9000;
+    top: 0px;
+}
+
+.main-bar div{
+    width: 20vh;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
